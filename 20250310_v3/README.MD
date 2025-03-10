@@ -19,10 +19,8 @@ Antes de ejecutar el programa, asegúrate de tener los siguientes requisitos ins
     [Descargar Python](https://www.python.org/downloads/)
 
 - **playsound3**: Necesitarás instalar la librería `playsound3` para poder reproducir el sonido del código Morse. Puedes instalarla usando pip:
-
-    pip install playsound3
+  ```pip install playsound3```
     
-
     Más detalles en [PyPI - playsound3](https://pypi.org/project/playsound3/).
 
 ## Instrucciones para ejecutar el programa en Windows
@@ -36,11 +34,11 @@ Antes de ejecutar el programa, asegúrate de tener los siguientes requisitos ins
 2. **Navegar a la carpeta del proyecto**  
    Usa el comando `cd` para cambiar el directorio hasta la carpeta donde descargaste el proyecto y entrar en la carpeta llamada windows. Ejemplo:
 
-    cd ruta\donde\se\encuentra\el\proyecto\windows
+  ```cd ruta\donde\se\encuentra\el\proyecto\windows```
 
 3. **Ejecutar el programa**
   Una vez en la carpeta del proyecto, puedes ejecutar el archivo main.py con el siguiente comando:
-    python .\main.py
+   ```python .\main.py```
 
 ## Instrucciones para ejecutar el programa en Linux
 
@@ -53,18 +51,18 @@ Antes de ejecutar el programa, asegúrate de tener los siguientes requisitos ins
 2. **Navegar a la carpeta del proyecto**  
    Usa el comando `cd` para cambiar el directorio hasta la carpeta donde descargaste el proyecto y entrar en la carpeta llamada linux. Ejemplo:
 
-    ```cd ruta\donde\se\encuentra\el\proyecto\linux```
+  ```cd ruta\donde\se\encuentra\el\proyecto\linux```
 
 3. **Ejecutar el programa**
   Una vez en la carpeta del proyecto, puedes ejecutar el archivo main.py con el siguiente comando:
   Para saber que version de Python, ejecutar
-    python3 --version
+  ```python3 --version```
   
   Si tienes Python instalado correctamente, verás una versión como Python 3.x.x
-    ```python3 .\main.py```
+  ```python3 .\main.py```
 
   Si solo tienes Python 2.x, utiliza python
-    ```python .\main.py```
+  ```python .\main.py```
 
 ## Funcionamiento
   **Menú: El programa despliega un menú con las siguientes opciones:**
