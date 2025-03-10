@@ -1,0 +1,4 @@
+crtl + k + c    Comentar
+crtl + k + u    Descomentar
+Tab Tabular
+Shift + Tab Destabular
