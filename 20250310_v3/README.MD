@@ -53,7 +53,7 @@ Antes de ejecutar el programa, asegúrate de tener los siguientes requisitos ins
 2. **Navegar a la carpeta del proyecto**  
    Usa el comando `cd` para cambiar el directorio hasta la carpeta donde descargaste el proyecto y entrar en la carpeta llamada linux. Ejemplo:
 
-    cd ruta\donde\se\encuentra\el\proyecto\linux
+    ```cd ruta\donde\se\encuentra\el\proyecto\linux```
 
 3. **Ejecutar el programa**
   Una vez en la carpeta del proyecto, puedes ejecutar el archivo main.py con el siguiente comando:
@@ -61,10 +61,10 @@ Antes de ejecutar el programa, asegúrate de tener los siguientes requisitos ins
     python3 --version
   
   Si tienes Python instalado correctamente, verás una versión como Python 3.x.x
-    python3 .\main.py
+    ```python3 .\main.py```
 
   Si solo tienes Python 2.x, utiliza python
-    python .\main.py
+    ```python .\main.py```
 
 ## Funcionamiento
   **Menú: El programa despliega un menú con las siguientes opciones:**
