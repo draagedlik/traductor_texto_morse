@@ -34,15 +34,37 @@ Antes de ejecutar el programa, asegúrate de tener los siguientes requisitos ins
    - Alternativamente, puedes usar PowerShell o Windows Terminal.
 
 2. **Navegar a la carpeta del proyecto**  
-   Usa el comando `cd` para cambiar el directorio hasta la carpeta donde descargaste el proyecto. Ejemplo:
+   Usa el comando `cd` para cambiar el directorio hasta la carpeta donde descargaste el proyecto y entrar en la carpeta llamada windows. Ejemplo:
 
-   cd ruta\donde\se\encuentra\el\proyecto
+    cd ruta\donde\se\encuentra\el\proyecto\windows
 
 3. **Ejecutar el programa**
   Una vez en la carpeta del proyecto, puedes ejecutar el archivo main.py con el siguiente comando:
+    python .\main.py
 
-  python .\main.py
+## Instrucciones para ejecutar el programa en Linux
 
+1. **Abrir una terminal**  
+   Puedes abrir la terminal en tu sistema Linux presionando Ctrl + Alt + T o buscando "Terminal" en el menú de aplicaciones.
+
+   - Presiona `Win + R`, escribe `cmd` y presiona Enter.
+   - Alternativamente, puedes usar PowerShell o Windows Terminal.
+
+2. **Navegar a la carpeta del proyecto**  
+   Usa el comando `cd` para cambiar el directorio hasta la carpeta donde descargaste el proyecto y entrar en la carpeta llamada linux. Ejemplo:
+
+    cd ruta\donde\se\encuentra\el\proyecto\linux
+
+3. **Ejecutar el programa**
+  Una vez en la carpeta del proyecto, puedes ejecutar el archivo main.py con el siguiente comando:
+  Para saber que version de Python, ejecutar
+    python3 --version
+  
+  Si tienes Python instalado correctamente, verás una versión como Python 3.x.x
+    python3 .\main.py
+
+  Si solo tienes Python 2.x, utiliza python
+    python .\main.py
 
 ## Funcionamiento
   **Menú: El programa despliega un menú con las siguientes opciones:**
